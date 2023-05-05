@@ -1,0 +1,38 @@
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    padding: 20px;
+    background-color: gray;
+  }
+  
+  input {
+
+    margin-top: 15px;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    display: block;
+  }
+  
+  form > button {
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 30px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition-duration: 200ms;
+  }
+  
+  form > button:hover {
+    transform: scale(1.1);
+
+  }
+
+  form > button:active {
+    background-color: blue;
+    color: white;
+  }
